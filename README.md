@@ -54,9 +54,9 @@ Below is a detailed pricing, free trial, and company scale breakdown of top comm
 
 Open-source AML tools allow fintechs, banks, and RegTech engineers to build self-hosted case management systems with full data privacy, transparent audit trails, and zero vendor lock-in.
 
-The table below is sorted by **GitHub Star Count (descending)**:
+The table below is sorted by **GitHub Stars_Count (descending)**:
 
-| 📦 Project | ⭐ Stars | 📜 License | 🧰 Tech Stack | 📌 Description |
+| 📦 Project | ⭐ GitHub_Stars | 📜 License | 🧰 Tech Stack | 📌 Description |
 | :--- | :--- | :--- | :--- | :--- |
 | **[Ballerine](https://github.com/ballerine-io/ballerine)** | [![Stars](https://img.shields.io/github/stars/ballerine-io/ballerine?style=social&color=white)](https://github.com/ballerine-io/ballerine/stargazers) | Apache-2.0 | TypeScript, React, Node.js | Open-source infrastructure for identity and risk management with a case management dashboard for manual user approvals and KYC/KYB reviews. |
 | **[OpenCTI](https://github.com/OpenCTI-Platform/opencti)** | [![Stars](https://img.shields.io/github/stars/OpenCTI-Platform/opencti?style=social&color=white)](https://github.com/OpenCTI-Platform/opencti/stargazers) | Apache-2.0 | TypeScript, GraphQL, Python | Open-source cybersecurity & financial threat intelligence platform widely adapted for complex AML case management, entity linking, and fraud investigation graphs. |
@@ -91,7 +91,7 @@ Contributions are warmly welcomed! To add a new enterprise SaaS platform or open
 
 1. 🍴 Fork this repository.
 2. 📝 Add your item to `README.md` following the existing tabular structure.
-3. 🔎 Ensure all vendor pricing, free trial limits, or GitHub star badges are accurately linked and documented.
+3. 🔎 Ensure all vendor pricing, free trial limits, or GitHub Stars_Badges are accurately linked and documented.
 4. 🚀 Open a Pull Request with a short summary of the addition.
 
 ---
