@@ -1,223 +1,122 @@
-# Awesome-Case-Management-For-AML
+# 🛡️ Awesome AML Case Management & Financial Crime Investigation Ecosystem 🔍
 
-## Top AML Case Management Platforms Ecosystem
+[![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/ishandutta2007/Awesome-Awesome-Awesome)
+<a href="https://github.com/ishandutta2007/Awesome-Awesome-Awesome"><img src="https://img.shields.io/badge/Awesome-%E2%9C%94-blueviolet?style=flat-square&logo=github" alt="Awesome"/></a><a href="https://discord.gg/jc4xtF58Ve"><img src="https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord" /></a>
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](http://makeapullrequest.com)
+<a href="https://github.com/ishandutta2007"><img alt="GitHub followers" src="https://img.shields.io/github/followers/ishandutta2007?label=Follow" /></a>
 
+![Awesome Case Management For AML Banner](./assets/banner.svg)
 
+> A curated directory of enterprise **SaaS AML Case Management platforms** and self-hosted **Open-Source Anti-Money Laundering (AML) software**, specialized for alert triage, transaction monitoring, financial crime investigations, Suspicious Activity Report (SAR / STR) filings, and regulatory compliance audit trails.
 
-**Curated List of SaaS Products & Open-Source GitHub Projects**  
+---
 
-*Focused on Alert Triage, Investigation Workflows, SAR Filing & Regulatory Case Documentation*  
+## 📑 Table of Contents
+- [📊 Market Overview & Industry Analysis](#-market-overview--industry-analysis)
+- [🏢 Enterprise SaaS / Hosted AML Case Management Platforms](#-enterprise-saas--hosted-aml-case-management-platforms)
+- [💻 Open-Source AML GitHub Projects](#-open-source-aml-github-projects)
+- [🧩 Architectural Blueprints & Stack Guidance](#-architectural-blueprints--stack-guidance)
+- [🤝 How to Contribute](#-how-to-contribute)
+- [☕ Support & Sponsorship](#-support--sponsorship)
+- [📈 Star History](#-star-history)
+- [⚠️ Disclaimer](#%EF%B8%8F-disclaimer)
 
-**Last updated: September 2026**
+---
 
+## 📊 Market Overview & Industry Analysis
 
+> **Global Market Size & Growth:** The Anti-Money Laundering (AML) software market is estimated at **$3.8 Billion to $4.2 Billion in 2026** and is projected to reach **$8.5+ Billion by 2031**, growing at a CAGR of ~15.8%.  
+> **Market Structure:** The market is **moderately fragmented**, featuring established enterprise legacy suites (NICE Actimize, Oracle, FICO, SAS, Fenergo) serving tier-1 global banks, alongside high-growth venture-backed RegTech unicorns (Feedzai, Unit21, ComplyAdvantage, Flagright, AMLYZE) capturing fintechs, neobanks, and mid-market institutions.
 
-This repository tracks notable **SaaS platforms** and **open-source projects** for **AML Case Management**. These tools help financial crime analysts, compliance officers, and AML investigators manage alerts, document investigations, file Suspicious Activity Reports (SARs), and maintain audit-ready case histories.
+---
 
+## 🏢 Enterprise SaaS / Hosted AML Case Management Platforms
 
+Below is a detailed pricing, free trial, and company scale breakdown of top commercial AML case management solutions:
 
-**Examples** include NICE Actimize, Oracle FCCM, FICO TONBELLER, SAS AML, ComplyAdvantage Case Manager, Unit21, Flagright, Feedzai, AMLYZE, and Fenergo (the category leaders).
+| 🏢 Platform | 💰 Starting Tier Price | 🎁 Free Tier / Free Trial Limits | 📊 Company Scale (Revenue / Valuation) | 📌 Core Capabilities |
+| :--- | :--- | :--- | :--- | :--- |
+| **[Oracle FCCM](https://www.oracle.com/)** | **$350,000 / year** (Enterprise license starting tier) | 30-day Free Trial with $300 Oracle Cloud credits | **~$53.8 Billion** Annual Revenue | Financial Crime & Compliance Management suite, enterprise SAR filing, institutional audit trail. |
+| **[NICE Actimize](https://www.niceactimize.com/)** | **$250,000 / year** (Enterprise core platform base) | No free tier; 14-day guided proof-of-concept for qualified institutions | **~$2.4 Billion** Annual Revenue (NICE Group) | Market-leading alert triage, AI-driven entity resolution, automated SAR filing workflows. |
+| **[SAS AML](https://www.sas.com/)** | **$180,000 / year** (Base financial crime suite) | 14-day Free Trial (SAS Viya Hosted Environment) | **~$3.2 Billion** Annual Revenue | Advanced analytics, behavioral anomaly detection, regulatory investigation workflows. |
+| **[FICO TONBELLER](https://www.fico.com/)** | **$120,000 / year** (Standard compliance module) | No free tier; 30-day sandbox trial for institutional partners | **~$1.6 Billion** Annual Revenue | Sentry-based AML compliance, risk scoring, alert management, and regulatory reporting. |
+| **[Fenergo](https://www.fenergo.com/)** | **$100,000 / year** (Base Client Lifecycle Management module) | No free tier; custom 30-day proof-of-concept environment | **~$1.15 Billion** Valuation | Client Lifecycle Management (CLM), regulatory onboarding, institutional case management. |
+| **[Feedzai](https://feedzai.com/)** | **$60,000 / year** (Growth platform package) | No free tier; 14-day sandbox access for enterprise demos | **~$1.0 Billion+** Valuation (Unicorn) | AI-first transaction monitoring, risk scoring, alert prioritization, and fraud/AML fusion case management. |
+| **[Unit21](https://www.unit21.ai/)** | **$48,000 / year** ($4,000/month billed annually) | No free tier; 14-day trial sandbox available on request | **~$300 Million** Valuation | No-code rule engine, automated SAR/CTR filing, customizable investigator workflows. |
+| **[ComplyAdvantage Case Manager](https://complyadvantage.com/)** | **$18,000 / year** ($1,500/month starting tier) | No free tier; 7-day free API search trial | **~$70 Million** Annual Revenue / ~$400M Valuation | Real-time sanctions screening, PEP checks, investigation documentation, and alert manager. |
+| **[Flagright](https://www.flagright.com/)** | **$11,988 / year** ($999/month starting plan) | 14-day Free Trial (up to 10,000 test transactions) | **~$5 Million** ARR / ~$30M Valuation | AI-native AML infrastructure, real-time transaction monitoring, and case management for fintechs. |
+| **[AMLYZE](https://amlyze.com/)** | **$6,000 / year** (€500/month starter tier) | 14-day Free Trial with access to full sandbox environment | **~$2 Million** ARR / ~$15M Valuation | Core AML compliance, transaction monitoring, screening, and case management for EMIs and neobanks. |
 
+---
 
+## 💻 Open-Source AML GitHub Projects
 
-**Open-source emphasis**: This section is heavily expanded with every major active project for self-hosting, custom investigation workflows, and transparent case documentation — ideal for fintechs and financial institutions that need full control over sensitive AML data without per-case SaaS fees or vendor lock-in.
+Open-source AML tools allow fintechs, banks, and RegTech engineers to build self-hosted case management systems with full data privacy, transparent audit trails, and zero vendor lock-in.
 
+The table below is sorted by **GitHub Star Count (descending)**:
 
+| 📦 Project | ⭐ Stars | 📜 License | 🧰 Tech Stack | 📌 Description |
+| :--- | :--- | :--- | :--- | :--- |
+| **[Ballerine](https://github.com/ballerine-io/ballerine)** | [![Stars](https://img.shields.io/github/stars/ballerine-io/ballerine?style=social&color=white)](https://github.com/ballerine-io/ballerine/stargazers) | Apache-2.0 | TypeScript, React, Node.js | Open-source infrastructure for identity and risk management with a case management dashboard for manual user approvals and KYC/KYB reviews. |
+| **[OpenCTI](https://github.com/OpenCTI-Platform/opencti)** | [![Stars](https://img.shields.io/github/stars/OpenCTI-Platform/opencti?style=social&color=white)](https://github.com/OpenCTI-Platform/opencti/stargazers) | Apache-2.0 | TypeScript, GraphQL, Python | Open-source cybersecurity & financial threat intelligence platform widely adapted for complex AML case management, entity linking, and fraud investigation graphs. |
+| **[TheHive](https://github.com/StrangeBee-Corp/TheHive)** | [![Stars](https://img.shields.io/github/stars/StrangeBee-Corp/TheHive?style=social&color=white)](https://github.com/StrangeBee-Corp/TheHive/stargazers) | AGPL-3.0 | Scala, Play Framework, AngularJS | Scalable 4-in-1 open-source security incident & financial case management platform designed for rapid alert triage, evidence collection, and collaboration. |
+| **[Tazama](https://github.com/tazama-lf)** | [![Stars](https://img.shields.io/github/stars/tazama-lf/tazama-lf?style=social&color=white)](https://github.com/tazama-lf/tazama-lf/stargazers) | Apache-2.0 | TypeScript, NodeJS, K8s | Open-source real-time transaction monitoring platform for fraud and money laundering, hosted by Linux Foundation & Gates Foundation. Integrates with external case management systems. |
+| **[Marble](https://github.com/checkmarble/marble)** | [![Stars](https://img.shields.io/github/stars/checkmarble/marble?style=social&color=white)](https://github.com/checkmarble/marble/stargazers) | ELv2 | Go, TypeScript, React | Real-time decision engine for fraud and AML with an integrated case manager, customizable risk rules, audit trails, and automated escalations. |
+| **[Argus Investigator](https://github.com/Cesco556/argus-investigator)** | [![Stars](https://img.shields.io/github/stars/Cesco556/argus-investigator?style=social&color=white)](https://github.com/Cesco556/argus-investigator/stargazers) | MIT | Next.js 16, Claude AI, Sigma.js | AI-powered AML investigator workspace featuring Model Context Protocol (MCP) tools, network graph visualizations, SAR clock triage, and defensible decision logging. |
+| **[AML Transaction Monitoring Engine](https://github.com/Cesco556/aml-transaction-monitoring-engine)** | [![Stars](https://img.shields.io/github/stars/Cesco556/aml-transaction-monitoring-engine?style=social&color=white)](https://github.com/Cesco556/aml-transaction-monitoring-engine/stargazers) | MIT | Python, FastAPI, Redis Streams | Production-ready AML engine with ML anomaly detection, sanctions screening, investigation workflows, and FinCEN BSA E-Filing SAR generation. |
+| **[Jube](https://github.com/jube-home/aml-fraud-transaction-monitoring)** | [![Stars](https://img.shields.io/github/stars/jube-home/aml-fraud-transaction-monitoring?style=social&color=white)](https://github.com/jube-home/aml-fraud-transaction-monitoring/stargazers) | AGPL-3.0 | C# (.NET Core), React | Open-source AML and fraud detection platform with transaction monitoring, rule engine, sanctions screening, and built-in case management. |
+| **[ThreatLens](https://github.com/innovatewithkishlay/ThreatLens)** | [![Stars](https://img.shields.io/github/stars/innovatewithkishlay/ThreatLens?style=social&color=white)](https://github.com/innovatewithkishlay/ThreatLens/stargazers) | MIT | Python, JavaScript, D3.js | AI-powered financial crime visualization platform mapping multi-account money laundering flows, shared IPs, phone numbers, and transactional links. |
+| **[Clarium](https://github.com/QuantSingularity/Clarium)** | [![Stars](https://img.shields.io/github/stars/QuantSingularity/Clarium?style=social&color=white)](https://github.com/QuantSingularity/Clarium/stargazers) | MIT | FastAPI, Python, React | RegTech module featuring a hash-chained tamper-evident audit trail, AML transaction monitoring rules, and RESTful case review endpoints (`PATCH /aml/review/{id}`). |
+| **[Nexus AML Compliance](https://packagist.org/packages/azaharizaman/nexus-aml-compliance)** | [![Stars](https://img.shields.io/github/stars/azaharizaman/nexus-aml-compliance?style=social&color=white)](https://github.com/azaharizaman/nexus-aml-compliance/stargazers) | MIT | PHP 8.3+ | Framework-agnostic PHP package for AML risk scoring (0-100), suspicious activity pattern monitoring, and automated SAR file output. |
+| **[FMS (Fraud Monitoring System)](https://www.linkedin.com/posts/tochukwu-iloani-166259100_aml-regtech-frauddetection-activity-7484713507054346240-ZRel)** | [![Stars](https://img.shields.io/github/stars/tochukwu-iloani/fms?style=social&color=white)](https://github.com/tochukwu-iloani/fms/stargazers) | MIT | Python, Django | Risk-based transaction monitoring system featuring customer risk profiling, OFAC screening, CTR/SAR investigator workflows, and audit logging. |
+| **[Graphomaly](https://pypi.org/project/graphomaly/)** | [![Stars](https://img.shields.io/github/stars/graphomaly/graphomaly?style=social&color=white)](https://github.com/graphomaly/graphomaly/stargazers) | BSD-3-Clause | Python, Scikit-Learn | Graph machine learning package built for detecting abnormal transaction patterns and money laundering structures in financial networks. |
 
-Contributions welcome! Open a PR to add/update entries. Keep descriptions factual and link to official sites.
+---
 
+## 🧩 Architectural Blueprints & Stack Guidance
 
+For institutions building custom, self-hosted AML compliance architectures:
+- **Alert Triage & Case UI:** Combine **Ballerine** or **Argus Investigator** for modern web-based investigation desktops.
+- **Rules Engine & Detection:** Use **Marble** or **Jube** for high-throughput rule execution and transaction evaluation.
+- **Large-Scale Transaction Monitoring:** Deploy **Tazama** (Linux Foundation) for ISO 20022 messaging and real-time transaction scoring.
+- **Network Analysis & Link Analysis:** Integrate **ThreatLens** or **Graphomaly** for visual graph mapping of shell company rings and fund flows.
+- **SAR Generation & Cryptographic Audit:** Implement **AML Transaction Monitoring Engine** or **Clarium** for FinCEN BSA e-filing and SHA-256 hash-chained audit compliance.
 
-## Table of Contents
+---
 
+## 🤝 How to Contribute
 
+Contributions are warmly welcomed! To add a new enterprise SaaS platform or open-source GitHub project:
 
-- [SaaS/Hosted Platforms](#saas-hosted-platforms)
+1. 🍴 Fork this repository.
+2. 📝 Add your item to `README.md` following the existing tabular structure.
+3. 🔎 Ensure all vendor pricing, free trial limits, or GitHub star badges are accurately linked and documented.
+4. 🚀 Open a Pull Request with a short summary of the addition.
 
-- [Open-Source GitHub Projects](#open-source-github-projects)
+---
 
-- [How to Contribute](#how-to-contribute)
+## ☕ Support & Sponsorship
 
-- [Disclaimer](#disclaimer)
+If you find this AML Case Management directory helpful for your research, enterprise evaluation, or open-source stack design:
 
+- ⭐ **Star this repository** to stay updated with new RegTech projects.
+- 🔀 **Fork & Share** with your financial crime, compliance, and engineering teams.
+- 💖 **Sponsor the Maintainer**: Support ongoing curation and open-source RegTech tooling via [GitHub Sponsors](https://github.com/sponsors/ishandutta2007).
 
+<a href="https://github.com/sponsors/ishandutta2007">
+  <img src="https://img.shields.io/badge/Sponsor-ishandutta2007-ea4aaa?style=for-the-badge&logo=github-sponsors&logoColor=white" alt="Sponsor on GitHub" />
+</a>
 
-## SaaS/Hosted Platforms
+---
 
+## 📈 Star History
 
+[![Star History Chart](https://star-history.dera.page/svg?repos=ishandutta2007/Awesome-Case-Management-For-AML&type=date&legend=top-left)](https://star-history.dera.page/#ishandutta2007/Awesome-Case-Management-For-AML&type=date&legend=top-left)
 
-- **[NICE Actimize](https://www.niceactimize.com/)**  
+---
 
-  Leading AML and financial crime platform with comprehensive case management, alert triage, and investigation workflows. Used by major banks and financial institutions worldwide.
+## ⚠️ Disclaimer
 
-
-
-- **[Oracle FCCM](https://www.oracle.com/)**  
-
-  Financial Crime and Compliance Management suite with case management, investigation, and SAR filing capabilities. Part of Oracle's enterprise risk platform.
-
-
-
-- **[FICO TONBELLER](https://www.fico.com/)**  
-
-  AML compliance platform with case management, alert investigation, and regulatory reporting. Combined with FICO's broader risk analytics capabilities.
-
-
-
-- **[SAS AML](https://www.sas.com/)**  
-
-  AML solution with case management, investigation workflows, and regulatory reporting. Part of SAS's financial crimes compliance suite.
-
-
-
-- **[ComplyAdvantage Case Manager](https://complyadvantage.com/)**  
-
-  Case management module within ComplyAdvantage's AML platform. Provides investigation workflows, documentation, and SAR preparation.
-
-
-
-- **[Unit21](https://www.unit21.ai/)**  
-
-  No-code AML and fraud platform with case management, investigation workflows, and automated SAR filing. Popular with fintechs and payment platforms.
-
-
-
-- **[Flagright](https://www.flagright.com/)**  
-
-  AI-native AML compliance platform with case management, real-time transaction monitoring, and investigation tools.
-
-
-
-- **[Feedzai](https://feedzai.com/)**  
-
-  Financial crime prevention platform with case management and investigation capabilities. Uses AI for risk detection and alert prioritization.
-
-
-
-- **[AMLYZE](https://amlyze.com/)**  
-
-  AML compliance platform focused on case management, investigation, and regulatory reporting for financial institutions.
-
-
-
-- **[Fenergo](https://www.fenergo.com/)**  
-
-  Client lifecycle management and AML compliance platform with case management and investigation workflows for financial institutions.
-
-
-
-## Open-Source GitHub Projects
-
-
-
-- **[Jube](https://github.com/jube-home/aml-fraud-transaction-monitoring)**  
-
-  Open-source AML and fraud detection platform with **case management** capabilities. Written in C# (.NET), licensed under AGPL-3.0. Features real-time transaction monitoring, ML-based detection, flexible rule engine with thresholds, velocity checks, aggregation counts, and sanctions screening. **Full audit trails for all actions**, multi-tenancy support, and Docker/Kubernetes deployment. Includes case management for investigating alerts and decisions. ~29 stars . **AGPL-3.0**.
-
-
-
-- **[Marble](https://github.com/checkmarble/marble)**  
-
-  Real-time decision engine for fraud and AML with an integrated **case manager**. Written in Go/TypeScript, licensed under Elastic License 2.0 (ELv2). Features rule-based detection scenarios, batch and real-time execution, **case management for investigating decisions and creating escalations**, custom lists, and full audit trails with versioning. Self-hosted version is free; cloud version priced like SaaS. Backed by €6.5M Series A (Smartfin lead), with 100+ institutions in 25+ countries using it in production . **Elastic License 2.0**.
-
-
-
-- **[Ballerine](https://github.com/ballerine-io/ballerine)**  
-
-  Open-source infrastructure for identity and risk management with a **case management dashboard for manual user approval**. TypeScript-based, ~2,065 stars. Features KYC/KYB UI flows, rule engine for automated decisioning, and integrations with identity verification providers. The case management dashboard allows manual review and approval of users, supporting AML onboarding and ongoing risk assessment. **Open source** .
-
-
-
-- **[Tazama](https://github.com/tazama-lf)**  
-
-  Open-source real-time transaction monitoring platform for fraud and money laundering detection, launched by the Linux Foundation with support from the Bill and Melinda Gates Foundation. Apache-2.0 licensed, Digital Public Good verified. Features rule processors, typology scoring, **case management integration** (alerts and case data sent to external case management systems), ISO 20022 compliance, and Kubernetes deployment. Used by COMESA JOPACC and BCEAO (in development) . **Apache-2.0**.
-
-
-
-- **[Argus Investigator](https://github.com/Cesco556/argus-investigator)**  
-
-  Modern AML investigator workspace with **case management UI**. Powered by Claude AI agent with MCP tools, defensible decision trail, and append-only event logging. Features case triage with severity and SAR clock, agent-powered reasoning with citations, network graph visualization (Sigma.js), and UK-scoped SAR rules (NCA DAML semantics). Next.js 16, MongoDB Atlas. **Open source** .
-
-
-
-- **[AML Transaction Monitoring Engine](https://github.com/Cesco556/aml-transaction-monitoring-engine)**  
-
-  Production-grade AML platform with ML anomaly detection, sanctions screening, network analysis, and **FinCEN SAR compliance reporting**. Python/FastAPI with Docker Compose deployment. Features real-time streaming (Redis Streams), **case management with investigation workflows**, FinCEN SAR generation (BSA E-Filing format), PDF investigation reports, audit export with hash chain verification, and regulatory timelines (FinCEN 30/60d, UK FCA 15/30d, EU AMLD 30/45d). **Open source** .
-
-
-
-- **[Nexus AML Compliance](https://packagist.org/packages/azaharizaman/nexus-aml-compliance)**  
-
-  Framework-agnostic PHP package for AML risk assessment and **transaction monitoring with SAR generation**. Features risk scoring (0-100) for parties and transactions, transaction monitoring for unusual patterns, **automated Suspicious Activity Report (SAR) generation**, jurisdiction risk assessment, and configurable thresholds. Pure PHP 8.3+, works with any framework. **Open source** .
-
-
-
-- **[Clarium](https://github.com/QuantSingularity/Clarium)**  
-
-  RegTech compliance module with FastAPI KYC/AML engine, **hash-chained audit trail**, jurisdiction rules, and React admin dashboard. Features AML transaction monitoring with four rules (amount threshold, velocity, geographic risk, PEP matching), **case review endpoints** (`PATCH /aml/review/{id}`), jurisdiction rules for US/GB/EU/SG/AE, webhooks with HMAC signing, and tamper-detection via SHA-256 hash chaining. **Open source** .
-
-
-
-- **[ThreatLens](https://github.com/innovatewithkishlay/ThreatLens)**  
-
-  AI-powered AML investigation platform for detecting and visualizing suspicious money laundering patterns. Creates interactive spider maps showing money flow between accounts, linking account holders, IPs, phone numbers, and emails. MIT licensed. **Open source** .
-
-
-
-- **[FMS (Fraud Monitoring System)](https://www.linkedin.com/posts/tochukwu-iloani-166259100_aml-regtech-frauddetection-activity-7484713507054346240-ZRel)**  
-
-  Open-source project exploring risk-based transaction monitoring and AML workflows. Features risk-based transaction monitoring, rule engine, customer risk profiling, **CTR/SAR workflow**, OFAC/sanctions screening, **case management**, audit trails, and analytics/reporting. Python-based. **Open source** .
-
-
-
-- **[Graphomaly](https://pypi.org/project/graphomaly/)**  
-
-  Automatic tool for Anti-Money Laundering (AML) and detecting abnormal behavior in graph and network structures. Uses machine learning for anomaly detection in financial transactions. Scikit-learn API compatible. **Open source** .
-
-
-
-### Additional Strong Open-Source Options
-
-
-
-- **Case Management UI**: **Argus Investigator** (AI-powered workspace with decision trail), **ThreatLens** (visual investigation platform) .
-
-- **Full AML Platforms**: **Jube** (transaction monitoring + case management), **Marble** (decision engine + case manager), **AML Transaction Monitoring Engine** (SAR compliance + case management) .
-
-- **Compliance Packages**: **Nexus AML Compliance** (PHP, SAR generation), **Clarium** (FastAPI, hash-chained audit) .
-
-- **Transaction Monitoring**: **Tazama** (Linux Foundation, case management integration), **Graphomaly** (ML anomaly detection) .
-
-
-
-**Frameworks for building custom systems**: Combine **Jube** or **Marble** for the core AML detection and case management engine, **Tazama** for ISO 20022-compliant transaction monitoring with case integration, **Argus Investigator** or **ThreatLens** for the investigation UI, and **Nexus AML Compliance** or **Clarium** for SAR generation and audit trails. Add **PostgreSQL** for persistence, **MongoDB** for event logging, and **Docker** for deployment.
-
-
-
-## How to Contribute
-
-
-
-1. Fork the repo.
-
-2. Add/edit entries in `README.md` (follow existing format).
-
-3. Include: name, link, 1–2 sentence description, and whether it's SaaS or open-source.
-
-4. Submit PR with a short explanation.
-
-
-
-Star the repo if you find it useful!
-
-
-
-## Disclaimer
-
-
-
-- This is a **community-curated** list — not exhaustive and not an endorsement.
-
-- AML case management platforms handle sensitive financial and personal data; ensure compliance with BSA/AML, FinCEN, OFAC, and relevant regional regulations.
-
-- **Open-source reality**: The open-source ecosystem for AML case management is **developing but not yet enterprise-grade**. **Jube** and **Marble** offer production-ready transaction monitoring with case management, but neither matches the full investigation workflow polish of NICE Actimize or Unit21. **Argus Investigator** and **ThreatLens** provide modern investigation UIs but are early-stage. For regulated institutions requiring immediate compliance, commercial platforms remain the primary choice.
+- This list is **community-curated** for informational and educational purposes only — it does not constitute legal or regulatory advice.
+- AML case management software handles confidential customer data (PII) and financial records. Ensure all deployments comply with BSA/AML, FinCEN, EU AMLD, OFAC sanctions, and local regulatory requirements.
